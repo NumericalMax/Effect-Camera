@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Effect Camera</string>
+
+    <string name="edit_button_content">Classic</string>
+    <string name="capture_button_content">City</string>
+    <string name="noneffect_button_content">Nature</string>
+
+    <string name="favorite_button">Favorite</string>
+    <string name="effect_button">Effect</string>
+    <string name="tune_button">Tune</string>
+    <string name="collage_button">Collage</string>
+    <string name="crop_button">Crop</string>
+    <string name="vignette_button">Vignette</string>
+
+    <string name="favorite_button_content">Favorite</string>
+    <string name="effect_button_content">Effect</string>
+    <string name="tune_button_content">Tune</string>
+    <string name="collage_button_content">Collage</string>
+    <string name="crop_button_content">Crop</string>
+    <string name="vignette_button_content">Vignette</string>
+
+    <string name="classic_button">Classic</string>
+    <string name="city_button">City</string>
+    <string name="nature_button">Nature</string>
+    <string name="food_button">Food</string>
+
+    <string name="classic_button_content">Classic</string>
+    <string name="city_button_content">City</string>
+    <string name="nature_button_content">Nature</string>
+    <string name="food_button_content">Food</string>
+
+    <string name="strength_button">Strength</string>
+    <string name="brightness_button">Brightness</string>
+    <string name="contrast_button">Contrast</string>
+    <string name="saturation_button">Saturation</string>
+
+    <string name="strength_button_content">Strength</string>
+    <string name="brightness_button_content">Brightness</string>
+    <string name="contrast_button_content">Contrast</string>
+    <string name="saturation_button_content">Saturation</string>
+
+    <string name="original_crop_button">Original</string>
+    <string name="sixteen_nine">16:9</string>
+    <string name="three_two">3:2</string>
+    <string name="five_four">5:4</string>
+    <string name="seven_five">7:5</string>
+    <string name="din_button">Din</string>
+    <string name="landscape_button">Landscape</string>
+    <string name="portrait_button">Portrait</string>
+    <string name="square_button">Square</string>
+
+    <string name="original_crop_button_content">Original</string>
+    <string name="sixteen_nine_content">16:9</string>
+    <string name="three_two_content">3:2</string>
+    <string name="five_four_content">5:4</string>
+    <string name="seven_five_content">7:5</string>
+    <string name="din_button_content">Din</string>
+    <string name="landscape_button_content">Landscape</string>
+    <string name="portrait_button_content">Portrait</string>
+    <string name="square_button_content">Square</string>
+
+    <string name="red_value">Red</string>
+    <string name="green_value">Green</string>
+    <string name="blue_value">Blue</string>
+
+    <string name="contrast_value">Contrast</string>
+    <string name="brightness_value">Brightness</string>
+    <string name="saturation_value">Saturation</string>
+
+    <string name="noText"></string>
+
+    <string name="drawer_open">Effect Camera</string>
+    <string name="drawer_close">Effect Camera</string>
+    <string name="retro_button">Retro</string>
+    <string name="bw_button">BW</string>
+    <string name="menu_button">menuButton</string>
+    <string name="extend_button">extendButton</string>
+    <string name="flash_button">flashButton</string>
+    <string name="switch_camera_button">switchCameraButton</string>
+    <string name="actionbar_text">actionBarText</string>
+    <string name="original">Original</string>
+    <string name="blackwhite"><![CDATA[Black&White]]></string>
+    <string name="sepia">Sepia</string>
+    <string name="negative">Negative</string>
+    <string name="edge">Edge</string>
+    <string name="portrait">Portrait</string>
+    <string name="painted_button">Painted</string>
+    <string name="light">Light</string>
+    <string name="settings">Settings</string>
+    <string name="termsOfUse">By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully
+        before using the app. We are offering you this app to use for your own personal use without cost, but you should be aware
+        that you cannot send it on to anyone else, and you’re not allowed to copy, or modify the app, any part of the app, or our
+        trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to
+        translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright,
+        database rights and other intellectual property rights related to it, still belong to easyJet.  At the bottom of these terms
+        and conditions you will be able to find links to our website where we set out our Privacy Policy, Acceptable Use of the app,
+        and the general Terms and Conditions for passengers and baggage, which will be relevant if you use the app to book flights with
+        easyJet in the future.  easyJet is committed to ensuring that the app is as useful and efficient as possible. For that reason,
+        we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never
+        charge you for the app or its services without making it very clear to you exactly what you’re paying for.  You should be aware
+        that there are certain things that easyJet will not take responsibility for. Certain functions of the app, such as the ability
+        to download and store your mobile boarding passes offline, the live Flight Tracker and the Mobile Host function will all require
+        the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider,
+        but easyJet cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi,
+        and you don’t have any of your data allowance left.  If you’re using the app outside of an area with Wi-Fi, you should remember
+        that your terms of agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile
+        provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using
+        the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home
+        territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using
+        the app, please be aware that we assume that you have received permission from the bill payer for using the app.  Along the same lines,
+        easyJet cannot always take responsibility for the way you use the app. If you want to use the mobile boarding pass feature of the app,
+        it’s possible that easyJet staff may need to briefly handle your device when your boarding pass is scanned. While our staff will -
+        of course - take all reasonable care to make sure nothing happens to your device, we don’t accept liability for damage to it, unless
+        it’s caused by any negligence or wilful misconduct by our staff. You also need to make sure that your device stays charged – if it runs out
+        of battery and you can’t turn it on to scan your boarding pass as required, easyJet cannot accept responsibility if you are as a result not
+        able to fly.  You should also remember that the app’s passport scanner function’s purpose is to make things more convenient for you –
+        it doesn’t replace your travel documents, and you will still need to bring them to the airport in order to fly. Lastly, with respect
+        to easyJet’s responsibility for your use of the app, when you’re using the mobile host function of the app, it’s important to bear in
+        mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information
+        to us so that we can make it available to you. So, it is not intended to wholly replace the need to stay informed of updates that are made
+        on screens throughout the terminal or via airport loudspeaker announcements. easyJet accepts no liability for any loss, direct or indirect,
+        you experience as a result of relying wholly on this functionality of the app rather than using all the resources in the airport to keep yourself
+        updated as to the details of your flight.  At some point we may wish to update the app. The app is currently available on Android and iOS –
+        the requirements for both systems (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll
+        need to download the updates if you want to keep using the app. easyJet does not promise that it will always update the app so that it is
+        relevant to you and/or works with the iOS/Android version that you have installed on your device. However, you promise to always accept updates
+        to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving
+        notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms
+        will end; (b) you must stop using the app, and (if needed) delete it from your device.</string>
+
+    <string-array name="drawerTitles_array">
+        <item>Settings</item>
+        <item>Terms of Use</item>
+        <item>Help</item>
+        <item>About</item>
+        <item>Exit</item>
+    </string-array>
+    <string name="title_activity_terms_of_use">TermsOfUse</string>
+    <string name="project_button_content">Projections</string>
+    <string name="rotate">Rotate</string>
+    <string name="grid">Grid</string>
+    <string name="add_current">Add Current</string>
+    <string name="fav1">1st Fav</string>
+    <string name="fav2">2nd Fav</string>
+    <string name="fav3">3rd Fav</string>
+    <string name="test_button">Test</string>
+    <string name="test1">Test Effect 1</string>
+    <string name="test2">Test Effect 2</string>
+    <string name="test3">Test Effect 3</string>
+    <string name="test4">Test Effect 4</string>
+    <string name="test5">Test Effect 5</string>
+    <string name="test6">Test Effect 6</string>
+    <string name="gps_tag">GPS Tag</string>
+    <string name="volume_control">Volume Control</string>
+    <string name="medium">Medium</string>
+    <string name="dark">Dark</string>
+    <string name="emboss">Emboss</string>
+    <string name="linear">Linear</string>
+    <string name="retro">Retro</string>
+    <string name="painted">Painted</string>
+
+</resources>

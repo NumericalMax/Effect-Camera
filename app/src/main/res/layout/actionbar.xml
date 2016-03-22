@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color" >
+
+    <ImageButton
+        android:id="@+id/extend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:src="@mipmap/ic_more_horiz_white_24dp"
+        android:layout_marginRight="@dimen/button_distance_edge"
+        android:contentDescription="@string/extend_button" />
+
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hwSettings"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/extend">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hwSettings1"
+            android:layout_toLeftOf="@+id/extend"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginRight="@dimen/button_to_button"
+            android:foregroundGravity="right">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:id="@+id/basicSettings"
+                android:layout_alignParentRight="false">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hdr"
+                    android:src="@mipmap/ic_hdr_off_white_24dp"
+                    android:background="@null"
+                    android:visibility="gone"
+                    android:layout_marginRight="@dimen/button_to_button" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/selfTimer"
+                    android:src="@mipmap/ic_timer_off_white_24dp"
+                    android:background="@null"
+                    android:visibility="gone"
+                    android:layout_marginRight="@dimen/button_to_button" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/flash"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:src="@mipmap/ic_flash_off_white_24dp"
+                    android:contentDescription="@string/flash_button"
+                    android:layout_marginRight="@dimen/button_to_button" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switch_camera"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/flash"
+                    android:layout_toStartOf="@+id/flash"
+                    android:background="@null"
+                    android:src="@mipmap/ic_switch_camera_white_24dp"
+                    android:contentDescription="@string/switch_camera_button" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hwSettings2"
+            android:layout_toLeftOf="@+id/extend"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginRight="@dimen/button_to_button"
+            android:foregroundGravity="right"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:id="@+id/linearLayout"
+                android:layout_alignParentRight="false" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoExposureLock"
+                    android:src="@mipmap/ic_lock_open_white_24dp"
+                    android:layout_marginRight="@dimen/button_to_button"
+                    android:background="@null"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scene"
+                    android:src="@mipmap/ic_wb_auto_white_24dp"
+                    android:layout_marginRight="@dimen/button_to_button"
+                    android:background="@null"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/whiteBalance"
+                    android:src="@mipmap/ic_wb_auto_white_24dp"
+                    android:layout_marginRight="@dimen/button_to_button"
+                    android:background="@null"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aeExposure"
+                    android:src="@mipmap/ic_brightness_4_white_24dp"
+                    android:background="@null"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hwSettings3"
+            android:layout_toLeftOf="@+id/extend"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginRight="@dimen/button_to_button"
+            android:foregroundGravity="right"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:id="@+id/linearLayout2"
+                android:layout_alignParentRight="false" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/centerFocus"
+                    android:src="@mipmap/ic_center_focus_weak_white_24dp"
+                    android:background="@null"
+                    android:visibility="gone"
+                    android:layout_marginRight="@dimen/button_to_button" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/focus"
+                    android:src="@mipmap/ic_favorite_white_24dp"
+                    android:layout_marginRight="@dimen/button_to_button"
+                    android:background="@null"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton8"
+                    android:src="@mipmap/ic_wb_auto_white_24dp"
+                    android:layout_marginRight="@dimen/button_to_button"
+                    android:background="@null"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton9"
+                    android:src="@mipmap/ic_favorite_white_24dp"
+                    android:background="@null"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ViewFlipper>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu"
+        android:src="@mipmap/ic_menu_white_24dp"
+        android:background="@null"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/button_distance_edge"
+        android:contentDescription="@string/menu_button" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actionBarImage"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/menu"
+        android:layout_toEndOf="@+id/menu"
+        android:src="@mipmap/txt_effect_camera"
+        android:layout_marginLeft="@dimen/button_to_button"
+        android:contentDescription="@string/actionbar_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/hwSettingsText"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/menu"
+        android:layout_marginLeft="@dimen/button_to_button"
+        android:visibility="gone"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

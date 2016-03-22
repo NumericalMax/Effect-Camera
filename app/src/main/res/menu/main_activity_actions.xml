@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:effectcamera="http://schemas.android.com/apk/res-auto">
+
+        <item android:id="@+id/changeCam"
+            android:icon="@mipmap/ic_switch_camera_white_24dp"
+            android:menuCategory="system"
+            effectcamera:showAsAction="ifRoom"
+            android:title="switch cam"/>
+
+        <item android:id="@+id/flash"
+            android:icon="@mipmap/ic_flash_auto_white_24dp"
+            android:title="flash"
+            effectcamera:showAsAction="always"/>
+
+
+        <item android:id="@+id/action_compose"
+            android:icon="@mipmap/ic_menu_white_24dp"
+            android:title="change"
+            effectcamera:showAsAction="never"/>
+
+</menu>

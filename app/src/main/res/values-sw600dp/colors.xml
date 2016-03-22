@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="apptheme_color">#ff8800</color>
+    <color name="button_text_color">#ffffff</color>
+    <color name="background_color">#3F51B5</color>
+    <color name="background_color_light">#3F51B588</color>
+    <color name="separation_line">#ffd700</color>
+</resources>

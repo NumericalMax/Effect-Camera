@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="seekBar_distance_edge">50dp</dimen>
+    <dimen name="button_distance_edge">20dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="button_to_button">15dp</dimen>
+    <dimen name="viewFlipper_to_menuButton">15dp</dimen>
+    <dimen name="seekBar_height">3dp</dimen>
+    <dimen name="actionbar_size">70dp</dimen>
+</resources>
